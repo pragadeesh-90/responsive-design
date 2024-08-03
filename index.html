@@ -1,0 +1,566 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+
+    <header class="header hidden top-0 left-0 w-full p-8 sm:flex justify-between items-center bg-slate-100">
+
+        <img src="img.svg" alt="" class="text-xl font-normal w-8">
+
+        <nav class="navbar text-base font-normal text-gray-500">
+
+            <a href="#" class="p-8 hover:text-teal-400">Home</a>
+            <a href="#" class="p-4 hover:text-teal-400">Order</a>
+            <a href="#" class="p-4 hover:text-teal-400">Company</a>
+            <a href="#" class="p-4 hover:text-teal-400">FAQ</a>
+            <a href="#" class="p-4 hover:text-teal-400">Contact</a>
+
+
+        </nav>
+
+    </header>
+
+    <div class="flex justify-center sm:mt-60 mt-20 md:mt-20">
+
+    <div class="sm:flex justify-center sm:gap-28 px-12 gap-20 md:gap-16">
+
+    <div class="container mt-12">
+
+        <div class="content">
+
+            <h1 class="sm:text-6xl text-2xl md:text-3xl lg:text-4xl font-bold ">Beautiful food & <br>
+                takeaway, <span class="text-teal-500">delivered</span> <br>
+                to your door.</h1>
+
+                <p class="sm:text-base md:text-lg lg:text-lg  ont-normal text-gray-600 mt-8">Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+                    industry. Lorem Ipsum has been the industry's standard dummy text <br>
+                    ever since the 1500.</p>
+
+                    <div class="colors text-base font-medium text-white mt-12">
+  
+                        <a href="#" class="btn border-2 px-8 py-4 text-white bg-teal-400 hover:bg-teal-500">Place an Order</a>
+                
+                      </div>
+
+                <div class="title mt-8">
+
+                    <h1 class="text-2xl font-medium">Trustpilot</h1>
+
+                    <p class="text-base font-semibold text-gray-500 mt-4"><span class="text-teal-500">4.8 out of 5</span> based on 2000+ reviews</p>
+
+                </div>
+              
+              </div>
+            
+            </div>
+
+    <div class="container mt-12">
+
+        <div class="cards">
+
+            <img src="img2.png" alt="">
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<!-- ---------------------------------------------------------------- -->
+
+<div class="flex justify-center sm:mt-48 mt-12 md:mt-12">
+
+<div class="sm:flex grid justify-center  bg-slate-100 sm:px-40 px-12 md:px-16 lg:px-16 sm:py-40 py-12   gap-24">
+
+  <div class="container sm:mt-20 mt-0 ">
+
+  <div class="content">
+
+    <h1 class="sm:text-6xl text-3xl md:text-2xl font-bold "><span class="text-teal-500">The home of <br>
+
+      fresh products</span></h1>
+
+      <p class="sm:text-base md:text-base font-normal text-gray-500 mt-8">Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+        industry. Lorem Ipsum has been the industry's standard dummy<br>
+        ever since the 1500.</p>
+
+        
+        <div class="colors text-base font-medium text-white mt-12">
+  
+          <a href="#" class="btn border-2 sm:px-8 py-4 text-white bg-teal-400 hover:bg-teal-500">Learn about us</a>
+  
+        </div>
+
+  </div>
+
+</div>
+
+
+<div class="container mt-14 ">
+
+  <div class="cards">
+
+    <img src="img3.png" alt="">
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ---------------------------------------------------------- -->
+
+<div class="title flex justify-center sm:text-6xl text-3xl font-bold text-teal-500 mt-44 ">
+
+  <h1>How it works.</h1>
+
+</div>
+
+<div class="sm:flex justify-center">
+
+<div class="container px-12 sm:grid grid-cols-3 mt-20">
+
+  <div class="cards w-3/4">
+
+    <img src="img4.png" alt="">
+
+    <div class="content grid justify-center">
+
+      <h1 class="sm:text-2xl text-base md:text-xl font-semibold mt-4">Adapt your menu items</h1>
+
+      <p class="text-base font-normal mt-4 text-center text-gray-500">Easily adapt your menu using the <br>
+        webflow CMS and allow customers to <br>
+        browse your items.</p>
+
+    </div>
+
+  </div>
+
+  <div class="cards w-3/4">
+
+    <img src="img5.png" alt="">
+
+    <div class="content sm:grid justify-center">
+
+      <h1 class="sm:text-2xl text-base md:text-xl  font-semibold mt-4">Accept online orders & takeout</h1>
+
+      <p class="text-base font-normal mt-4 text-center text-gray-500">Let your customers order and pay via <br>
+        the powerful ecommerce system, or <br>
+        simple let them call your store.</p>
+
+    </div>
+
+  </div>
+
+  <div class="cards w-3/4">
+
+    <img src="img6.png" alt="">
+
+    <div class="content grid justify-center">
+
+      <h1 class="sm:text-2xl text-base md:text-xl font-semibold mt-4">Manage delivery or takeout</h1>
+
+      <p class="text-base font-normal mt-4 text-center text-gray-500">Manage your own logistics and take <br>
+        orders simply through the ecommerce <br>
+        system.</p>
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+<!-- --------------------------------------------------- -->
+
+<div class="title sm:flex grid justify-center sm:text-6xl text-2xl md:text-3xl  font-bold text-teal-500 mt-44 ">
+
+  <h1>Browse our menu</h1>
+
+</div>
+
+<div class="title sm:flex justify-center text-base font-normal text-gray-500 text-center mt-8 ">
+
+  <p>Use our menu to place an order online, or <span class="text-teal-500">phone</span> our store to <br>
+    place a pickup order. Fast and fresh food.</p>
+
+</div>
+
+<div class="flex justify-center">
+
+<div class="container sm:grid grid-cols-3 mt-4 sm:px-96 px-24 md:px-28 lg:px-32 xl:px-44">
+
+<div class="colors text-base font-medium text-white mt-14">
+  
+  <a href="#" class="btn border-2 px-8 py-4 text-white bg-teal-400 hover:bg-teal-500">Burgers</a>
+
+</div>
+
+<div class="colors text-base font-normal text-white mt-14">
+  
+  <a href="#" class="btn border-2 px-8 py-4 text-black">Sides</a>
+
+</div>
+
+<div class="colors text-base font-normal text-white mt-14">
+  
+  <a href="#" class="btn border-2 px-8 py-4 text-black">Drinks</a>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- -------------------------------------------------- -->
+
+<div class="flex justify-center ">
+
+<div class="container sm:grid grid-cols-3 sm:px-64 px-12 md:px-20 gap-4 mt-24  bg-slate-100 py-20">
+
+  <div class="cards w-3/4 mb-12 bg-white drop-shadow-2xl">
+
+    <img src="img7.png" alt="">
+
+    <div class="content">
+
+      <h1 class="text-xl font-medium text-center mt-4">Burger Dreams</h1>
+
+      <h1 class="text-base font-normal text-center"><span class="text-teal-500">$ 9.20 USD</span></h1>
+
+      <p class="text-sm font-normal text-center text-gray-500 mt-4">Lorem Ipsum is simply dummy text of the printing <br>
+        and typesetting industry.</p>
+
+        <div class="colors text-base font-medium text-white text-center mt-12">
+  
+          <a href="#" class="btn border-2 px-4 py-4 text-white bg-teal-400 hover:bg-teal-500">Add to Card</a>
+        
+        </div>
+     </div>
+</div>
+<div class="cards w-3/4 mb-12 bg-white drop-shadow-2xl">
+
+  <img src="img8.png" alt="">
+
+  <div class="content">
+
+    <h1 class="text-xl font-medium text-center mt-4">Burger Cali</h1>
+
+    <h1 class="text-base font-normal text-center"><span class="text-teal-500">$ 8.00 USD</span></h1>
+
+    <p class="text-sm font-normal text-center text-gray-500 mt-4">Lorem Ipsum is simply dummy text of the printing <br>
+      and typesetting industry.</p>
+
+      <div class="colors text-base font-medium text-white text-center mt-12">
+
+        <a href="#" class="btn border-2 px-4 py-4 text-white bg-teal-400 hover:bg-teal-500">Add to Card</a>
+      
+      </div>
+   </div>
+</div>
+<div class="cards w-3/4 mb-12 bg-white drop-shadow-2xl">
+
+  <img src="img9.png" alt="">
+
+  <div class="content">
+
+    <h1 class="text-xl font-medium text-center mt-4">Burger Spicy</h1>
+
+    <h1 class="text-base font-normal text-center"><span class="text-teal-500">$ 9.20 USD</span></h1>
+
+    <p class="text-sm font-normal text-center text-gray-500 mt-4">Lorem Ipsum is simply dummy text of the printing <br>
+      and typesetting industry.</p>
+
+      <div class="colors text-base font-medium text-white text-center mt-8">
+
+        <a href="#" class="btn border-2 px-4 py-4 text-white bg-teal-400 hover:bg-teal-500">Add to Card</a>
+      
+      </div>
+   </div>
+</div>
+<div class="cards  w-3/4  bg-white drop-shadow-2xl">
+
+  <img src="img10.png" alt="">
+
+  <div class="content">
+
+    <h1 class="text-xl font-medium text-center mt-4">Burger Waldo</h1>
+
+    <h1 class="text-base font-normal text-center"><span class="text-teal-500"> $ 10.00 USD</span></h1>
+
+    <p class="text-sm font-normal text-center text-gray-500 mt-4">Lorem Ipsum is simply dummy text of the printing <br>
+      and typesetting industry.</p>
+
+      <div class="colors text-base font-medium text-white text-center mt-12">
+
+        <a href="#" class="btn border-2 px-4 py-4 text-white bg-teal-400 hover:bg-teal-500">Add to Card</a>
+      
+      </div>
+   </div>
+</div>
+<div class="cards  w-3/4  bg-white drop-shadow-2xl">
+
+  <img src="img11.png" alt="">
+
+  <div class="content">
+
+    <h1 class="text-xl font-medium text-center mt-4">Burger Bacon Buddy</h1>
+
+    <h1 class="text-base font-normal text-center"><span class="text-teal-500">$ 9.99 USD</span></h1>
+
+    <p class="text-sm font-normal text-center text-gray-500 mt-4">Lorem Ipsum is simply dummy text of the printing <br>
+      and typesetting industry.</p>
+
+      <div class="colors text-base font-medium text-white text-center mt-12">
+
+        <a href="#" class="btn border-2 px-4 py-4 text-white bg-teal-400 hover:bg-teal-500">Add to Card</a>
+      
+      </div>
+   </div>
+</div>
+<div class="cards  w-3/4  bg-white drop-shadow-2xl">
+
+  <img src="img13.png" alt="">
+
+  <div class="content">
+
+    <h1 class="text-xl font-medium text-center mt-4">Burger Classic</h1>
+
+    <h1 class="text-base font-normal text-center"><span class="text-teal-500">$ 8.00 USD</span></h1>
+
+    <p class="text-sm font-normal text-center text-gray-500 mt-4">Lorem Ipsum is simply dummy text of the printing <br>
+      and typesetting industry.</p>
+
+      <div class="colors text-base font-medium text-white text-center mt-12">
+
+        <a href="#" class="btn border-2 px-4 py-4 text-white bg-teal-400 hover:bg-teal-500">Add to Card</a>
+      
+      </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- -------------------------------------------------- -->
+
+<div class="flex justify-center sm:mt-32 mt-16"> 
+
+<div class="sm:flex justify-center">
+  
+<div class="container">
+
+  <div class="cards">
+
+    <img src="img15.png" alt="">
+
+  </div>
+
+
+</div>
+
+
+<div class="container sm:mt-80 mt-20 md:mt-12 lg:mt-28 xl:mt-52">                                                                           
+
+  <div class="content px-12">
+
+    <h1 class="sm:text-6xl text-xl md:text-xl lg:text-2xl xl:text-4xl font-bold "><span class="text-teal-500">Order online with our<br>
+      simple checkout.</span></h1>
+
+      <p class="text-base font-normal text-gray-500 mt-8">Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+        industry. Lorem Ipsum has been the industry's standard dummy text <br>
+        ever since the 1500.</p>
+
+        <div class="colors text-base font-medium text-white mt-12">
+
+          <a href="#" class="btn border-2 px-8 py-4 text-white bg-teal-400 hover:bg-teal-500">See our FAQ</a>
+        
+        </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- -------------------------------------------------- -->
+
+<div class="sm:flex justify-center sm:mt-40 mt-14">
+
+<div class="sm:flex justify-center bg-slate-100 sm:px-40 px-8 md:px-14 lg:px-12 sm:py-40 py-8 gap-20">
+
+<div class="container mt-20">
+
+  <div class="content">
+
+    <h1 class="sm:text-5xl text-2xl md:text-2xl lg:text-3xl font-bold "><span class="text-teal-500">Call our store and <br>
+      takeaway when it suits <br>
+      you best.</span></h1>
+
+      <p class="text-base font-normal text-gray-500 mt-8">Lorem Ipsum is simply dummy text of the printing and typesetting <br>
+        industry. Lorem Ipsum has been the industry's standard dummy text <br>
+        ever since the 1500.</p>
+
+        
+        <div class="colors text-base font-medium  text-white mt-12">
+
+          <a href="#" class="btn border-2 px-8 py-4 text-white bg-teal-400 hover:bg-teal-500">Ph. +61 233 2333</a>
+        
+        </div>
+
+  </div>
+
+</div>
+
+
+<div class="container">
+
+<div class="cards mt-16">
+
+  <img src="img16.png" alt="">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- --------------------------------------------- -->
+
+<div class="sm:flex justify-center sm:px-32 px-8 md:px-8 mt-32">
+
+<div class="container">
+
+  <div class="cards">
+
+    <img src="img17.png" alt="">
+
+  </div>
+
+</div>
+
+<div class="container bg-teal-500">
+
+  <div class="content sm:mt-60 md:mt-4 sm:px-20 px-0 md:px-12 lg:px-16 xl:px-20">
+
+    <h1 class="sm:text-6xl text-xl md:text-xl lg:text-2xl xl:text-2xl font-bold text-white"><span class="text-gray-600">Support</span> good food <br>
+
+      and local business.</h1>
+
+      <div class="colors text-base font-medium text-white mt-14">
+
+        <a href="#" class="btn border-2 px-8 py-4 text-teal-500 bg-white">Order Now</a>
+      
+      </div>
+
+  </div>
+</div>
+</div>
+
+<!-- -------------------------------------------------------- -->
+
+<div class="flex justify-center mt-52">
+
+<div class="container sm:grid grid-cols-4 mb-16 bg-slate-100 sm:px-20 px-12 md:px-8 sm:py-20 py-8">
+
+  <div class="cards mt-12">
+
+    <img src="img.svg" alt="" class="w-8">
+
+    <div class="content mt-4">
+
+      <h1 class="text-base font-medium text-gray-500">Takeaway & Delivery template <br>
+
+        for small - medium businesses.</h1>
+
+    </div>
+
+  </div>
+
+  <div class="cards mt-12">
+
+    <div class="content sm:px-20 px-8">
+
+      <h1 class="text-base font-bold ">COMPANY</h1>
+
+      <h1 class="text-sm font-medium text-gray-500 mt-4">Home</h1>
+      <h1 class="text-sm font-medium text-gray-500 mt-4">Order</h1>
+      <h1 class="text-sm font-medium text-gray-500 mt-4">FAQ</h1>
+      
+      <h1 class="text-sm font-medium text-gray-500 mt-4">Contact</h1>
+    </div>
+
+  </div>
+
+  <div class="cards mt-12">
+
+    <div class="content px-8">
+
+      <h1 class="text-base font-bold ">TEMPLATE</h1>
+
+      <h1 class="text-sm font-medium text-gray-500 mt-4">Style Guide</h1>
+      <h1 class="text-sm font-medium text-gray-500 mt-4">Changelog</h1>
+      <h1 class="text-sm font-medium text-gray-500 mt-4">Licence</h1>
+      <h1 class="text-sm font-medium text-gray-500 mt-4">Webflow University</h1>
+
+    </div>
+
+  </div>
+
+  <div class="cards mt-12">
+
+    <div class="content px-8">
+
+      <h1 class="text-base font-bold ">FlOWBASE</h1>
+
+      <h1 class="text-sm font-medium text-gray-500 mt-4">More Cloneables</h1>
+
+      <div class="social-media mt-4">
+
+        <i class='bx bxl-instagram text-2xl font-medium text-rose-500'></i>
+        <i class='bx bxl-twitter text-2xl font-medium text-blue-500' ></i>
+        <i class='bx bxl-youtube text-2xl font-medium text-red-600' ></i>
+
+        
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+</body>
+</html>
